@@ -36,17 +36,11 @@ To the best of my known, 本文所述内容是世界上第一次对智能完成�
 * 构建智能
 
     * [正则：缩小采样空间](zh/chapter2_1_regularization.md)
-    * 对齐：提供优化方向
-        * 演化
-        * 池化
-        * 扁平化
-        * 对比学习
-        * 对抗学习
-        * 强化学习
+    * [对齐：提供优化方向](zh/chapter2_2_alignment.md)
 
 * 媒介理论
 
-    * 媒介及其性质
+    * [媒介及其性质](zh/chapter3_1_media.md)
     * 媒介绑架
 
 * 后记与杂谈
