@@ -41,7 +41,7 @@ To the best of my known, 本文所述内容是世界上第一次对智能完成�
 * 媒介理论
 
     * [媒介及其性质](zh/chapter3_1_media.md)
-    * 媒介绑架
+    * [媒介绑架](zh/chapter3_2_hijack.md)
 
 * 后记与杂谈
 
