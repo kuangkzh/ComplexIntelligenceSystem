@@ -22,10 +22,11 @@
 
 但是这种推广能力是有限的，机器学习理论告诉我们，在给定数据的情况下，一个模型要么是欠拟合的要么是过拟合的。
 我们直接将一个 $\phi$ 原生目标函数和预期目标函数带入Bias-Variance分解中，
-令 $\hat{f}=S(s_{\phi}^n)$ ， $y=S_{\pi}(s_{\phi}^{n+1})=S_{\pi}(s_{\phi}^{n})+\varepsilon $ ，
+令 $\hat{f}=S(s_{\phi}^n)$ ，
+$y=S_{\pi}(s_{\phi}^{n+1})=S_{\pi}(s_{\phi}^{n})+\varepsilon$ ，
 就可以得到:
 
-$\operatorname{E}_D \left[ (y-\hat{f})^2 \right] = \operatorname{Bias}_D (\hat{f})^2 + \operatorname{Var}_D (\hat{f}) + \sigma^2$
+$\mathbb{E}_D \left[ (y-\hat{f})^2 \right] = \mathbf{Bias}_D (\hat{f})^2 + \mathbf{Var}_D (\hat{f}) + \sigma^2$
 
 这里的 $D$ 表示给定的 $\pi$ 和 $\phi$ 实际目标的相关性分布。
 前文提到相关性分布在信息视角下可以描述成信息交互度，在这种定义下该等式回归到原本的含义， $D$ 是训练集， $\hat{f}$ 是算法， $y$ 是数据真实分布。

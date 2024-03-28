@@ -83,7 +83,7 @@ Note: 这里使用大写S记号目标函数，是因为右式与熵一样是由�
 若系统中有两个个体 $\pi, \phi$ ，它们一起参与到演化中时存活概率比单独存活更高，形成了某种共生关系，
 即 $P(s_{\pi,alive}^n s_{\phi,alive}^n | s_{\pi}^t s_{\phi}^t) \gt P(s_{\pi,alive}^n|s_{\pi}^t s_{\phi}^t)P(s_{\phi,alive}^n|s_{\pi}^t s_{\phi}^t)$ ，
 不难证明 $P(s_{\phi,alive}^n | s_{\pi}^t s_{\phi}^t s_{\pi,alive}^n) \gt P(s_{\phi,alive}^n | s_{\pi}^t s_{\phi}^t)$ ，
-也就是说 $\pi$ 存在的前提能够增大$\phi$存活的概率。
+也就是说 $\pi$ 存在的前提能够增大 $\phi$ 存活的概率。
 这样 $\pi$ 的存在就会对 $\phi$ 产生筛选，在这种筛选作用下可以诞生出新的智能，
 同样可以定义 $S_{\pi}(s_{\phi}^n) \cong P(s_{\phi}^{n}|s_{\pi}^t s_{\phi}^t s_{\pi,alive}^n)$ 称作 $\pi$ 对 $\phi$ 的预期目标函数。
 

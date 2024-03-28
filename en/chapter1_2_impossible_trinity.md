@@ -21,7 +21,7 @@ It can be said that it is precisely locality that endows a kind of intelligence 
 
 However, this kind of promotional ability is limited. Machine learning theory tells us that given data, a model is either underfitting or overfitting. We directly substitute a $\phi$ native objective function and expected objective function into the Bias-Variance decomposition. Let $\hat{f}=S(s_{\phi}^n)$, $y=S_{\pi}(s_{\phi}^{n+1})=S_{\pi}(s_{\phi}^{n})+\varepsilon$, then we can obtain:
 
-$\operatorname{E}_D \left[ (y-\hat{f})^2 \right] = \operatorname{Bias}_D (\hat{f})^2 + \operatorname{Var}_D (\hat{f}) + \sigma^2$
+$\mathbb{E}_D \left[ (y-\hat{f})^2 \right] = \mathbf{Bias}_D (\hat{f})^2 + \mathbf{Var}_D (\hat{f}) + \sigma^2$
 
 Here, $D$ represents the relevance distribution of the given $\pi$ and $\phi$ actual targets. As mentioned earlier, the relevance distribution can be described in terms of information interaction from an information perspective. In this definition, this equation regresses to its original meaning, where $D$ is the training set, $\hat{f}$ is the algorithm, and $y$ is the true data distribution. This equation implies that given a training set, regardless of the model chosen, its expected error is determined by bias, variance, and noise error as lower bounds. Typically, models can only seek a balance between high bias underfitting and high variance overfitting.
 
