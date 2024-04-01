@@ -6,7 +6,9 @@ In everyday context, there are various definitions or descriptions of what intel
 
 In contrast, seeking advantage and avoiding harm is a more precise definition, as it clearly defines the direction of prediction and action. The only drawback is the lack of clarity in defining advantage and harm. As the saying goes, "what is poison to one, may be honey to another"; judgments of advantage and harm vary with circumstances, which depend on the attributes, environment, and purpose of each thing. Upon deeper examination, it is not difficult to find that the only indivisible and difficult-to-define aspect at the core of these definitions is "purpose". As long as a system has a purpose, its processes of cognition, prediction, and action can be considered intelligent. Therefore, we can boldly assume:
 
-    Intelligent systems all have purposes, and systems with purposes can be called intelligent systems.
+```text
+Intelligent systems all have purposes, and systems with purposes can be called intelligent systems.
+```
 
 Although purpose remains difficult to define, fortunately, predecessors have provided a relatively clear expression. Aristotle described the operation of the world with the Four Causes: material cause, formal cause, efficient cause, and final cause. Modern natural science has thoroughly researched the first three causes, while the academic community still holds skepticism and criticism towards the final cause, because the definition of purpose itself is unclear. Teleology often evades the exploration of purpose itself by borrowing the unknowable ultimate purpose. Aristotle's explanation of this is that the final cause is "the tendency of things with an end to choose the best end", where what is considered good belongs to a highly subjective topic.
 
@@ -55,9 +57,11 @@ If there exists a function $S(s_{\pi}^n) \cong P(s_{\pi}^n|s_{\pi}^t)$ that is o
 we call $S(s_{\pi}^n)$ the objective function of $\pi$, and $P(s_{\pi,alive}^n)$ is the actual objective function, which can be termed as the real objective function.
 Then $P(s_{\pi}^{t+1}|s_{\pi}^t,s_{\pi,alive}^n)$ is considered more intelligent than $P(s_{\pi}^{t+1}|s_{\pi}^t)$.
 
-```text
-Note: The use of uppercase S notation for the objective function here is because the right-hand side, like entropy, is defined by probability in the direction of time. The two should be able to constitute some kind of equivalent definition, but the author's level of proficiency is limited, and conclusions cannot be drawn at present.
-```
+Note: The use of uppercase S notation for the objective function here is because the right-hand side, like entropy, is defined by probability in the direction of time.
+The two should be able to constitute some kind of equivalent definition.
+Under the Boltzmann entropy definition, $S=k\ln\Omega$ , $P(s_{\pi}^{n_i}) = \frac{\Omega_i}{\sum_{i}{\Omega_i}} = \frac{e^{S_i/k}}{\sum_{i}{e^{S_i/k}}}$.
+Due to the lack of systematic learning in statistical thermodynamics, I'm not confident in this conclusion.
+
 
 ## Secondary Intelligence
 
